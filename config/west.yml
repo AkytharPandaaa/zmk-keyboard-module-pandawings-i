@@ -1,18 +1,23 @@
 manifest:
+  defaults:
+    remote: AkytharPandaaa
+    revision: v0.3 # pin all the imports to v0.3
+
   remotes:
-    # Additional modules containing boards/shields/custom code can be listed here as well
-    # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: zmk-locales
+    - name: joelspadin
       url-base: https://github.com/joelspadin
+
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
       import: app/west.yml
-  #    - name: zmklocales
-  #      remote: zmk-locales
-  #      revision: main
+
+    # ZMK modules
+    - name: zmk-locales
+      remote: joelspadin
+      revision: main
+
   self:
     path: config
