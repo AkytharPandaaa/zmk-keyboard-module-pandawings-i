@@ -5,28 +5,36 @@ if SHIELD_PANDAWINGS-I_LEFT
 
 # Name must be less than 16 chars long
 config ZMK_KEYBOARD_NAME
+    string
     default "PandaWings I"
 
 config ZMK_SPLIT
+    bool
     default y
 
 config ZMK_SPLIT_ROLE_CENTRAL
+    bool
     default y
 
 # change to 2 for dongle setup (default: 1)
 config CONFIG_ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+    int
     default 1
 
 config CONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING
+    bool
     default y
 
 config CONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY
+    bool
     default y
 
 config CONFIG_ZMK_USB
+    bool
     default y
 
 config CONFIG_ZMK_USB_BOOT
+    bool
     default y
 
 endif
@@ -34,6 +42,7 @@ endif
 if SHIELD_PANDAWINGS-I_DONGLE || SHIELD_PANDAWINGS-I_LEFT || SHIELD_PANDAWINGS-I_RIGHT
 
 config ZMK_SPLIT
+    bool
     default y
 
 endif
