@@ -135,10 +135,9 @@
         g_vr_inventory: g_vr_inventory {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <100>;
-            tap-ms = <100>;
+            wait-ms = <50>;
+            tap-ms = <50>;
             bindings =
-                <&macro_tap>,
                 <&kp R &mkp RCLK &kp E &kp R &mkp RCLK &kp E &kp R &mkp RCLK &kp E &kp R &mkp RCLK &kp E &kp R &mkp RCLK &kp E &kp R &mkp RCLK &kp E &kp R &mkp RCLK &kp E &kp R &mkp RCLK &kp E &kp R &mkp RCLK &kp E &kp R &mkp RCLK &kp E>;
         };
 
@@ -148,7 +147,6 @@
             wait-ms = <250>;
             tap-ms = <100>;
             bindings =
-                <&macro_tap>,
                 <&kp DE_N3 &kp E &kp DE_N3 &kp E &kp DE_N3 &kp E &kp DE_N3 &kp E &kp DE_N3 &kp E &kp DE_N3 &kp E &kp D &kp W>;
         };
 
