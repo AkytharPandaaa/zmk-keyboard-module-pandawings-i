@@ -12,16 +12,11 @@ config ZMK_SPLIT_ROLE_CENTRAL
     bool
     default y
 
-# change to 2 for dongle setup (default: 1)
-config CONFIG_ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
-    int
-    default 1
-
-config CONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING
+config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING
     bool
     default y
 
-config CONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY
+config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY
     bool
     default y
 
@@ -29,11 +24,11 @@ config ZMK_USB
     bool
     default y
 
-config CONFIG_ZMK_USB
+config ZMK_USB
     bool
     default y
 
-config CONFIG_ZMK_USB_BOOT
+config ZMK_USB_BOOT
     bool
     default y
 
