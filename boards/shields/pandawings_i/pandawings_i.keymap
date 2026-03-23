@@ -68,6 +68,7 @@
 //                                  | SW19 | SW20 | SW21 |  | SW42 | SW41 | SW40 |
 
         default_layer {
+            display-name = "Default Layer";
             bindings = <
 //           ┌───┬───┬───┬──────┬─────┐               ┌──────┬───────────┬───┬───┬───┐
 //           │ Q │ W │ E │  R   │  T  │               │  Y   │     U     │ I │ O │ P │
