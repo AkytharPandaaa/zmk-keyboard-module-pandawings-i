@@ -20,7 +20,7 @@ features:
   - underglow
 
 requires:
-  - seeed_xiao_ble
+  - xiao_ble
 
 siblings:
   - pandawings_i_left
