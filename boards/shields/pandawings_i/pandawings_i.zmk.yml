@@ -8,16 +8,19 @@ name: PandaWings I
 type: shield
 
 # Set this to a URL that documents the keyboard.
-url: https://example.com
+url: https://github.com/AkytharPandaaa/PandaWings-kbd
 
 # Add any features your keyboard supports here.
 # See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files#features
 features:
+  - backlight
+  - display
   - keys
-  - studio  # Remove this line if your keyboard will not support ZMK Studio
+  - studio
+  - underglow
 
 requires:
-  - seeed_xiao
+  - seeed_xiao_ble
 
 siblings:
   - pandawings_i_left
