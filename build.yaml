@@ -18,10 +18,13 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
-# include:
-#   - board: xiao_ble
-#     shield: settings_reset
-#   - board: xiao_ble
-#     shield: pandawings-i_left
-#   - board: xiao_ble
-#     shield: pandawings-i_right
+include:
+  - board: xiao_ble
+    shield: settings_reset
+  - board: xiao_ble
+    shield: pandawings_i_left
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: corne_left_with_studio
+  - board: xiao_ble
+    shield: pandawings_i_right
