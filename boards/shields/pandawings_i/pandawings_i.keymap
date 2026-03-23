@@ -8,41 +8,41 @@
     combos {
         compatible = "zmk,combos";
 
-        select_all {
-            bindings = <&kp LC(A)>;
-            key-positions = <23 24>;
-            layers = <0>;
-        };
-
-        copy {
-            bindings = <&kp LC(C)>;
-            key-positions = <24 25>;
-            layers = <0>;
-        };
-
-        paste {
-            bindings = <&kp LC(V)>;
-            key-positions = <25 26>;
-            layers = <0>;
-        };
-
-        cut {
-            bindings = <&kp LC(X)>;
-            key-positions = <26 27>;
-            layers = <0>;
-        };
-
-        line_start {
-            bindings = <&kp HOME>;
-            key-positions = <12 13 14>;
-            layers = <0>;
-        };
-
-        line_end {
-            bindings = <&kp END>;
-            key-positions = <17 18 19>;
-            layers = <0>;
-        };
+//        select_all {
+//            bindings = <&kp LC(A)>;
+//            key-positions = <23 24>;
+//            layers = <0>;
+//        };
+//
+//        copy {
+//            bindings = <&kp LC(C)>;
+//            key-positions = <24 25>;
+//            layers = <0>;
+//        };
+//
+//        paste {
+//            bindings = <&kp LC(V)>;
+//            key-positions = <25 26>;
+//            layers = <0>;
+//        };
+//
+//        cut {
+//            bindings = <&kp LC(X)>;
+//            key-positions = <26 27>;
+//            layers = <0>;
+//        };
+//
+//        line_start {
+//            bindings = <&kp HOME>;
+//            key-positions = <12 13 14>;
+//            layers = <0>;
+//        };
+//
+//        line_end {
+//            bindings = <&kp END>;
+//            key-positions = <17 18 19>;
+//            layers = <0>;
+//        };
 
         return {
             bindings = <&kp RETURN>;
@@ -50,11 +50,11 @@
             layers = <0>;
         };
 
-        controller_reset {
-            bindings = <&bootloader>;
-            key-positions = <0 2 3>;
-            layers = <0>;
-        };
+//        controller_reset {
+//            bindings = <&bootloader>;
+//            key-positions = <0 2 3>;
+//            layers = <0>;
+//        };
     };
 
     // Define a default keymap here.
