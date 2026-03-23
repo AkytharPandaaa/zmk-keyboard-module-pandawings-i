@@ -84,4 +84,5 @@
                                        &kp LSHFT   &kp SPACE   &kp DELETE       &kp TAB   &kp BACKSPACE   &mt LALT APOS
             >;
         };
+    };
 };
