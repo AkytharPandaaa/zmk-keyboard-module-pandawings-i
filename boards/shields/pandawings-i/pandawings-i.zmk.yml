@@ -13,11 +13,11 @@ url: https://github.com/AkytharPandaaa/PandaWings-kbd
 # Add any features your keyboard supports here.
 # See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files#features
 features:
-  - backlight
-  - display
+  #  - backlight
+  #  - display
   - keys
   - studio
-  - underglow
+  #  - underglow
 
 requires: [xiao_ble]
 
