@@ -2,7 +2,7 @@
 // See https://zmk.dev/docs/development/hardware-integration/new-shield for more
 // instructions.
 
-#include "pandawings_i.dtsi"
+#include "pandawings-i.dtsi"
 
 &default_transform {
     // Set this to the number of columns on the left side.
