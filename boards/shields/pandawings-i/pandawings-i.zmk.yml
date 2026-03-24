@@ -6,7 +6,7 @@ url: https://github.com/AkytharPandaaa/PandaWings-kbd
 features:
   - keys
   - studio
-requires: [xiao_ble]
+requires: [seeed_xiao]
 siblings:
   - pandawings-i_left
   - pandawings-i_right
