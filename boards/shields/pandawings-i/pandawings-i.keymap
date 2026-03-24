@@ -9,7 +9,7 @@
         ht_as: autoshift_hold_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <QUICK_TAP_MS>;
+            tapping-term-ms = <175>;
             bindings = <&shifted>, <&kp>;
         };
 
