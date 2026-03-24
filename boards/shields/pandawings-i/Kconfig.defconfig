@@ -7,21 +7,17 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-#config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING
-#    bool
-#    default y
+config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING
+    default y
 
-#config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY
-#    bool
-#    default y
+config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY
+    default y
 
-#config ZMK_USB
-#    bool
-#    default y
+config ZMK_USB
+    default y
 
-#config ZMK_USB_BOOT
-#    bool
-#    default y
+config ZMK_USB_BOOT
+    default y
 
 endif # SHIELD_PANDAWINGS_I_LEFT
 
@@ -31,9 +27,5 @@ if SHIELD_PANDAWINGS_I_LEFT || SHIELD_PANDAWINGS_I_RIGHT
 
 config ZMK_SPLIT
     default y
-
-#config ZMK_BLE
-#    bool
-#    default y
 
 endif # SHIELD_PANDAWINGS_I_LEFT || SHIELD_PANDAWINGS_I_RIGHT
