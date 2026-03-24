@@ -19,8 +19,7 @@ features:
   - studio
   - underglow
 
-requires:
-  - xiao_ble
+requires: [xiao_ble]
 
 siblings:
   - pandawings-i_left
