@@ -1,0 +1,27 @@
+# This file was generated from a template. Edit it to match your keyboard.
+# See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files
+# for instructions.
+
+file_format: "1"
+id: pandawings-i
+name: PandaWings I
+type: shield
+
+# Set this to a URL that documents the keyboard.
+url: https://github.com/AkytharPandaaa/PandaWings-kbd
+
+# Add any features your keyboard supports here.
+# See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files#features
+features:
+  - backlight
+  - display
+  - keys
+  - studio
+  - underglow
+
+requires:
+  - xiao_ble
+
+siblings:
+  - pandawings-i_left
+  - pandawings-i_right

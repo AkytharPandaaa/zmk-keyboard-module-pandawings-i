@@ -1,0 +1,20 @@
+// This file was generated from a template. Edit it to match your keyboard.
+// See https://zmk.dev/docs/development/hardware-integration/new-shield for more
+// instructions.
+
+#include "pandawings-i.dtsi"
+
+&default_transform {
+    // Set this to the number of columns on the left side.
+    col-offset = <5>;
+};
+
+&kscan {
+    // Replace these comments with the GPIO pins in the matrix for the right side.
+    // See https://zmk.dev/docs/development/hardware-integration/new-shield#shield-overlays
+    col-gpios = <&xiao_d 7 GPIO_ACTIVE_HIGH>,  // col5 in schematic, col1 on pcb
+                <&xiao_d 8 GPIO_ACTIVE_HIGH>,	 // col4 in schematic, col2 on pcb
+                <&xiao_d 9 GPIO_ACTIVE_HIGH>,	 // col3 in schematic, col3 on pcb
+                <&xiao_d 10 GPIO_ACTIVE_HIGH>, // col2 in schematic, col4 on pcb
+                <&xiao_d 6 GPIO_ACTIVE_HIGH>;	 // col1 in schematic, col5 on pcb
+};

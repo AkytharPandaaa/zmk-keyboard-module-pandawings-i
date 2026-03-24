@@ -1,0 +1,31 @@
+if SHIELD_PANDAWINGS_I_LEFT
+
+config ZMK_KEYBOARD_NAME
+    # Name must be less than 16 chars long (bluetooth spec)
+    default "PandaWings I"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING
+    default y
+
+config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY
+    default y
+
+config ZMK_USB
+    default y
+
+config ZMK_USB_BOOT
+    default y
+
+endif # SHIELD_PANDAWINGS_I_LEFT
+
+# ==============================================================
+
+if SHIELD_PANDAWINGS_I_LEFT || SHIELD_PANDAWINGS_I_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif # SHIELD_PANDAWINGS_I_LEFT || SHIELD_PANDAWINGS_I_RIGHT
