@@ -1,5 +1,5 @@
-config SHIELD_PANDAWINGS_I_LEFT
-    def_bool $(shields_list_contains,pandawings_i_left)
+config SHIELD_PANDAWings-i_LEFT
+    def_bool $(shields_list_contains,pandawings-i_left)
 
-config SHIELD_PANDAWINGS_I_RIGHT
-    def_bool $(shields_list_contains,pandawings_i_right)
+config SHIELD_PANDAWings-i_RIGHT
+    def_bool $(shields_list_contains,pandawings-i_right)

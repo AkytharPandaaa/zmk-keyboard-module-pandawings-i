@@ -3,7 +3,7 @@
 # for instructions.
 
 file_format: "1"
-id: pandawings_i
+id: pandawings-i
 name: PandaWings I
 type: shield
 
@@ -23,5 +23,5 @@ requires:
   - xiao_ble
 
 siblings:
-  - pandawings_i_left
-  - pandawings_i_right
+  - pandawings-i_left
+  - pandawings-i_right
